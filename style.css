@@ -7,8 +7,12 @@
 }
 
 body {
-    background: #000;
+    background: rgb(255, 255, 255);
     text-align: center;
+}
+
+h1 {
+    color: black;
 }
 
 #form {
@@ -20,7 +24,7 @@ body {
     background: white cover no-repeat;
     border: 2px solid red;
     border-radius: 30px;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     width: 400px;
     height: 65px;
@@ -30,7 +34,7 @@ body {
     background: white cover no-repeat;
     border: 2px solid red;
     border-radius: 30px;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     width: 400px;
     height: 65px;
@@ -68,14 +72,14 @@ body {
     text-align: center;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 600px;
 }
 
-.col-12{
+.col-12 {
     box-sizing: content-box;
 }
 
@@ -85,5 +89,10 @@ body {
     #n2,
     #result {
         width: 185px;
+    }
+
+    #n1,
+    #n2{
+        font-size: 16px;
     }
 }
