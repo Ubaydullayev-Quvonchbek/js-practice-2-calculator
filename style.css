@@ -7,7 +7,7 @@
 }
 
 body {
-    background: rgb(255, 255, 255);
+    background: #212121;
     text-align: center;
 }
 
@@ -21,55 +21,64 @@ h1 {
 }
 
 #n1 {
-    background: white cover no-repeat;
+    background: #3e3e3e;
     border: 2px solid red;
     border-radius: 30px;
     font-size: 35px;
+    color: #fff;
     text-align: center;
     width: 400px;
     height: 65px;
+    box-shadow: -4px 5px 10px #fff;
 }
 
 #n2 {
-    background: white cover no-repeat;
+    background: #3e3e3e;
     border: 2px solid red;
     border-radius: 30px;
+    color: #fff;
     font-size: 35px;
     text-align: center;
     width: 400px;
     height: 65px;
+    box-shadow: -4px 5px 10px #fff;
 }
 
 #result {
-    background: white;
+    background: #3e3e3e;
     border: 2px solid red;
     border-radius: 30px;
     font-size: 40px;
-    color: black;
+    color: wheat;
     width: 400px;
     height: 65px;
     text-align: center;
+    box-shadow: -4px 5px 10px #fff;
 }
 
 #operators {
-    background: white cover no-repeat;
+    background: #3e3e3e;
     border: 2px solid red;
     border-radius: 30px;
+    color: #fff;
     width: 60px;
     height: 60px;
     font-size: 30px;
     text-align: center;
+    box-shadow: -4px 5px 10px #fff;
 }
 
 #btn {
-    background: white cover no-repeat;
+    background: #3e3e3e;
     border: 2px solid red;
     border-radius: 30px;
+    color: #fff;
     width: 60px;
     height: 60px;
     font-size: 30px;
     cursor: pointer;
     text-align: center;
+    box-shadow: -4px 5px 10px #fff;
 }
 
 .container {
